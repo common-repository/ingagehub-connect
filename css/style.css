@@ -1,0 +1,52 @@
+
+.ihCampaignAttachmentQuestion .ihAnswerInputRank {
+    width: 3em;
+    text-align: center;
+    margin-right: 0.5em;
+}
+
+.ihAnswerInputRadio, .ihAnswerInputCheckbox {
+    margin-right: 0.5em;
+}
+
+.ihCampaignAttachmentQuestion .ihOtherBox {
+    margin-left: 1em;
+    display: none;
+}
+
+.ihCampaignAttachmentQuestion .ihFreeTextBox {
+    height: 4em;
+}
+
+ul.ihQuestion, ul.ihQuestionAnswers {
+    list-style-type: none;
+}
+
+.ihCampaignSubmitForm {
+    padding: 0.25em 0.25em 0.25em 0.25em;
+    border: solid 1px #333333;
+}
+
+.ihCampaignSubmitForm label {
+    display: inline-block;
+    text-align: center;
+    margin-right: 1%;
+    width: 23%;
+    max-width: 23%;
+}
+
+.ihCampaignSubmitForm input {
+    width: 74%;
+}
+.ihCampaignSubmitForm button {
+    margin-top: 1em;
+}
+
+.ihAnswerInput { }
+.ihAnswerLabel { }
+.ihAnswerLabelRadio { }
+.ihAnswerLabelCheckbox { }
+.ihOtherBoxTrigger { }
+li.ihQuestionText { }
+li.ihQuestionAnswers { }
+li.ihQuestionAnswer { }

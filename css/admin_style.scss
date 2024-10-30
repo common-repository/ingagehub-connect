@@ -1,0 +1,200 @@
+#ih_admin_options, #ih_admin_campaigns {
+  img.ih_admin_logo {
+    display: block;
+    height: 175px;
+    width: 541px;
+    margin-top: 10px;
+
+    &.ih_admin_logo_small {
+      height: 71px;
+    }
+  }
+
+  h3.status {
+    width: 85%;
+    color: white;
+    min-height: 1.5em;
+    border-radius: 0.5em;
+    padding: 0.6em 1em 0.6em 1em;
+
+    &.status_ok {
+      background-color: green;
+    }
+
+    &.status_warning {
+      background: orange;
+    }
+
+    &.status_error {
+      background-color: red;
+    }
+  }
+
+  label {
+    display: inline-block;
+    width: 6em;
+    padding: 0.5em;
+    margin: 0.25em;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  input {
+    width: 16em;
+    height: 2.5em;
+
+    &.large {
+      width: 24em;
+    }
+
+    &.xlarge {
+      width: 36em;
+    }
+  }
+
+  input[type=checkbox], input[type=radio] {
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  small {
+    margin-left: 10em;
+    display: inline-block;
+    width: 16em;
+  }
+
+  input[type=submit], input[type=button] {
+    display: inline-block;
+    appearance: button;
+    -moz-appearance: button;
+    -webkit-appearance: button;
+    padding: 5px 15px;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #0073aa;
+    color: white;
+
+    &.small {
+      width: 8em;
+    }
+
+    &.warning {
+      background: #ffae00;
+      color: white;
+    }
+
+    &:hover {
+      border: 3px solid black;
+      padding: 3px 13px;
+    }
+  }
+
+  table {
+    width: 98%;
+  }
+
+  table, tr, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 0.5em;
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: inherit;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      img {
+        vertical-align: middle;
+        padding: 1px;
+      }
+
+      img:hover {
+        padding: 0;
+        border: 1px solid black;
+      }
+
+      span {
+        margin-left: 5px;
+      }
+    }
+  }
+
+  th {
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+  }
+}
+
+#ih_admin_campaigns_table_sort {
+  a, strong {
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.25em;
+    border: 1px solid black;
+  }
+}
+
+#ih_admin_campaigns_table_filter {
+  h2 {
+    display: inline-block;
+    margin: 0;
+
+    em {
+      display: inline-block;
+      padding: 0.5em;
+      margin: 0.25em;
+      border: 1px solid black;
+    }
+  }
+
+  #ih_admin_campaign_search, #ih_admin_campaign_refresh {
+    img {
+      vertical-align: middle;
+      padding: 1px;
+    }
+
+    img:hover {
+      padding: 0;
+      border: 1px solid black;
+    }
+  }
+}
+
+#ih_admin_question_text_div {
+  margin-right: 8em;
+}
+
+.ih_admin_data_form .ih_admin_radio_list {
+  list-style-type: none;
+
+  li {
+    padding: 5px;
+    border: 1px solid black;
+    min-height: 4em;
+    width: 75%;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+
+  li:hover {
+    padding: 3px;
+    border: 3px solid black;
+  }
+}
+
+.ih_admin_base_question_details {
+  font-size: smaller;
+  font-style: italic;
+  margin-left: 2em;
+}
